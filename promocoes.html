@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Girassol Mini Mercado - Promoções imperdíveis">
+    <meta name="keywords" content="promoções, mini mercado, alimentos frescos, descontos">
+    <meta name="author" content="Girassol Mini Mercado">
+    <title>Promoções - Girassol Mini Mercado</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="promocoes.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <button style="color: white;padding-right: 15px;" class="prev-btn" id="backArrow">❮</button>
+                <img src="img/sunflower-icon.png" alt="Girassol" class="logo-img">
+                <span class="logo-text">Mini Mercado<br><strong>Girassol</strong></span>
+            </div>
+            <div class="header-links">
+                <a href="#">Novidades</a>
+                <a href="#">Contato</a>
+                <a href="#" class="categories">Todas Categorias</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Promoções Imperdíveis</h1>
+        <div class="promotions-grid">
+            <div class="promotion-card">
+                <img src="img/apple.png" alt="Maçã">
+                <h3>Maçã Gala 1kg</h3>
+                <p class="old-price">De R$7,99</p>
+                <p class="price">Por R$5,99</p>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+            <div class="promotion-card">
+                <img src="img/banana.png" alt="Banana">
+                <h3>Banana Prata 1kg</h3>
+                <p class="old-price">De R$6,50</p>
+                <p class="price">Por R$4,50</p>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+            <div class="promotion-card">
+                <img src="img/carrot.png" alt="Cenoura">
+                <h3>Cenoura 1kg</h3>
+                <p class="old-price">De R$5,00</p>
+                <p class="price">Por R$3,50</p>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+            <div class="promotion-card">
+                <img src="img/orange.png" alt="Laranja">
+                <h3>Laranja Pêra 1kg</h3>
+                <p class="old-price">De R$4,99</p>
+                <p class="price">Por R$3,99</p>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("backArrow").addEventListener("click", function () {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>

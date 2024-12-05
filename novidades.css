@@ -1,0 +1,60 @@
+.prev-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.novelties-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.novelty-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.novelty-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.novelty-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.novelty-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.novelty-card .price {
+    color: #E74C3C;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #4ABDF5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #3598DB;
+}
