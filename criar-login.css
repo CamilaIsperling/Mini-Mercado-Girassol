@@ -1,4 +1,4 @@
-/* login.css */
+/* criar-login.css */
 .login-container {
     background-color: #6ec1ff;
     width: 400px;
@@ -21,11 +21,19 @@
     width: 80%;
     padding: 10px;
     margin: 10px 0;
-    border: none;
+    border: 2px solid #fff;
     border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
 }
 
-.login-container .login-btn {
+.login-container input:focus {
+    outline: none;
+    border-color: #9371f9;
+}
+
+.submit-btn {
     background-color: white;
     color: #6ec1ff;
     border: none;
@@ -35,28 +43,8 @@
     cursor: pointer;
 }
 
-.login-container .login-btn:hover {
+.submit-btn:hover {
     background-color: #e8f7ff;
-}
-
-.create-login {
-    display: block;
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: yellow;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.create-login:hover {
-    text-decoration: underline;
-}
-
-.prev-btn {
-    border: none;
-    background-color: transparent;
-    font-size: 20px;
-    cursor: pointer;
 }
 
 header {
@@ -94,3 +82,10 @@ header .prev-btn {
     cursor: pointer;
 }
 
+.prev-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
